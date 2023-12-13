@@ -67,3 +67,305 @@ body {
 /*
  * ADD YOUR STYLES HERE
  */
+ header {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 20px;
+}
+
+#logo {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  align-items: center;
+  background-color: black;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+#logo img {
+  width: 40px;
+  height: auto;
+  margin-right: 4px;
+}
+
+#contact {
+  padding: 10px;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  border: 2px solid black;
+  border-radius: 10px;
+  align-items: center;
+}
+
+.hero-section {
+  text-align: center;
+  padding: 50px;
+}
+
+.hero-title {
+  font-size: 34px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.hero-description {
+  font-size: 18px;
+  line-height: 1.5;
+  color: gray;
+}
+
+/* Skills Section Styles */
+.skills-section {
+  position: relative;
+  padding: 50px;
+  text-align: center;
+}
+
+.skills-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.skills-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.skill-box {
+  border: 2px solid #fff8f8;
+  border-radius: 10px;
+  padding: 20px;
+  width: 150px;
+  text-align: center;
+  margin: 10px;
+  position: relative;
+  z-index: 1;
+}
+
+.skills-container {
+  padding: 50px;
+  text-align: center;
+}
+
+.skills-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.skills-container {
+  display: flex;
+  justify-content: flex-start; /* Align to the left */
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-left: 30px;
+}
+
+.skill-box {
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  width: 150px; /* Adjusted width */
+  text-align: center;
+  margin: 10px;
+}
+
+/* Custom Styles for Each Skill Box */
+.skill-box:nth-child(4) {
+  background-color: rgb(197, 147, 197);
+}
+
+.skill-box:nth-child(1) {
+  background-color: #ee90cf;
+}
+
+.skill-box:nth-child(2) {
+  background-color: #ca9cea;
+}
+
+.skill-box:nth-child(3) {
+  background-color: #45aac1;
+}
+
+.skill-box:nth-child(5) {
+  background-color: #ff7aad;
+}
+
+.skill-box:nth-child(6) {
+  background-color: #45b4e8;
+}
+
+/* About Me Section Styles */
+.about-me-section {
+  padding: 50px;
+  text-align: center;
+}
+
+.about-me-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.about-me-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-me-image {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.about-me-image img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.about-me-text {
+  flex: 1;
+  text-align: left;
+}
+
+.about-me-text p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.about-me-text .title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #000;
+}
+
+.contact-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: pink;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  border: 2px solid pink;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.my-work-section {
+  padding: 50px;
+  text-align: center;
+}
+
+.work-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.work-box {
+  width: 300px;
+  margin: 40px;
+}
+
+.work-image {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.work-button {
+  padding: 10px 20px;
+  background-color: pink;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  border: 2px solid pink;
+  border-radius: 10px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.unique-flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.unique-box {
+  background-color: #9d63a2;
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: black;
+  width: 1000px;
+}
+
+.unique-content {
+  text-align: left;
+}
+
+.unique-button {
+  padding: 10px 20px;
+  background-color: black;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 15px;
+  font-size: 18px;
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  position: relative;
+}
+
+.footer img {
+  width: 40px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.footer-line {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background-color: black;
+}
+
+.copyright {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .hero-section {
+    padding: 30px;
+  }
+
+  .skills-section,
+  .about-me-section,
+  .my-work-section,
+  .unique-box {
+    padding: 30px;
+  }
+
+  .work-box {
+    width: 100%;
+  }
+}
